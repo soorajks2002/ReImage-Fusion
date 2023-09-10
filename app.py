@@ -3,7 +3,8 @@ from remove_bg import remove_bg
 from generate_bg import generate_image
 from superimpose import superimpose_image
 
-st.title("BG Brush 🧑‍🎨")
+st.set_page_config(page_title="ReImage Fusion", page_icon="🌟")
+st.title("ReImage Fusion 🌟")
 
 st.markdown("#### Select Your Image")
 input_image = st.file_uploader("Upload your target image", type=['png', 'jpg', 'jpeg'], label_visibility='collapsed')
