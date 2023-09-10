@@ -3,7 +3,7 @@ from PIL import Image
 
 def superimpose_image(segmented_image, background_image) :
     
-    segmented_image = segmented_image.resize((background_image.width, background_image.height))
+    background_image = background_image.resize((segmented_image.width, segmented_image.height))
     
     x = (background_image.width - segmented_image.width)//2
     y = (background_image.height - segmented_image.height)//2
