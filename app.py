@@ -3,7 +3,7 @@ from remove_bg import remove_bg
 from generate_bg import generate_image
 from superimpose import superimpose_image
 
-st.set_page_config(page_title="ReImage Fusion", page_icon="🌟")
+st.set_page_config(page_title="ReImage Fusion", page_icon="🌟", layout='wide')
 st.title("ReImage Fusion 🌟")
 
 st.markdown("#### Select Your Image")
